@@ -47,7 +47,7 @@ export class GpuRepository {
 
     return {
       primaryKey: `${gpu.chipset}_${yearMonth}`,
-      sortKey: `${gpu.maker}_${day}`,
+      sortKey: `${gpu.maker.code}_${day}`,
       chipset: gpu.chipset,
       name: gpu.name,
       makerCode: gpu.maker.code,
