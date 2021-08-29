@@ -8,4 +8,5 @@ export type Gpu = {
   readonly name: string;
   readonly price: number;
   readonly createDateTime: LocalDateTime;
+  readonly url: string;
 }

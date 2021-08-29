@@ -43,9 +43,8 @@ const getProductLinks = async (job: GetProductLinkJob) => {
 };
 
 const storeGpuPrice = async (job: GetGpuPriceJob) => {
-  const content = await fetchContent(job.url)
-  const gpu = new GpuPageParserFactory().create(job.seller)
-    .parse(content);
+  const gpu = await new GpuPageParserFactory().create(job.seller)
+    .parse(job.url);
   console.log(`Gpu: ${JSON.stringify(gpu, null, 2)}`);
 
   await new GpuRepository().store(gpu);

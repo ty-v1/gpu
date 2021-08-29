@@ -1,5 +1,5 @@
 import { Gpu } from '@/model/gpu/Gpu';
 
 export interface GpuPageParser {
-  parse(content: string): Gpu;
+  parse(content: string): Promise<Gpu>;
 }

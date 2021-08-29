@@ -17,6 +17,7 @@ type GpuInfraItem = {
   readonly makerCode: string;
   readonly chipset: string;
   readonly createAt: string;
+  readonly url: string
 }
 
 export class GpuRepository {
@@ -52,7 +53,8 @@ export class GpuRepository {
       name: gpu.name,
       makerCode: gpu.maker.code,
       price: gpu.price,
-      createAt: gpu.createDateTime.format(DateTimeFormatter.ofPattern('yyyy-MM-dd'))
+      createAt: gpu.createDateTime.format(DateTimeFormatter.ofPattern('yyyy-MM-dd')),
+      url: gpu.url
     }
 
   }

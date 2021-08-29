@@ -6,9 +6,11 @@ import { Maker } from '@/types/Maker';
 import { Chipset, Chipsets } from '@/types/Chipset';
 import { filterAsciiAndKuroutoSikou } from '@/util/filter';
 import { LocalDateTime } from 'js-joda';
+import { fetchContent } from '@/util/fetchContent';
 
 export class TsukumoPageParser implements GpuPageParser {
-  parse(content: string): Gpu {
+  async parse(url: string): Promise<Gpu> {
+    const content = await fetchContent(url);
     const $ = cheerio.load(content);
 
     return {
@@ -17,6 +19,7 @@ export class TsukumoPageParser implements GpuPageParser {
       chipset: this.getChipset($),
       name: this.getName($),
       createDateTime: LocalDateTime.now(),
+      url,
     }
   }
 
