@@ -2,15 +2,14 @@ import * as sqs from '@aws-cdk/aws-sqs';
 import * as cdk from '@aws-cdk/core';
 import { NodejsFunction } from '@aws-cdk/aws-lambda-nodejs';
 import * as path from 'path';
-import { QueueName, GpuPriceTableName, SellerMasterBucketName } from '../src/resources';
+import { GpuPriceTableName, QueueName, SellerMasterBucketName } from '../src/resources';
 import * as dynamodb from '@aws-cdk/aws-dynamodb';
+import { BillingMode } from '@aws-cdk/aws-dynamodb';
 import * as events from '@aws-cdk/aws-events';
 import * as targets from '@aws-cdk/aws-events-targets';
 import * as s3 from '@aws-cdk/aws-s3';
-import { BillingMode } from '@aws-cdk/aws-dynamodb';
 import { Schedule } from '@aws-cdk/aws-events/lib/schedule';
 import { SqsEventSource } from '@aws-cdk/aws-lambda-event-sources';
-import { Duration } from '@aws-cdk/core';
 
 const PROJECT_DIR = path.join(__dirname, '..', 'src', 'lambda');
 
@@ -23,6 +22,7 @@ export class GpuStack extends cdk.Stack {
     const parsePageFunction = this.createFunction('parsePage', 'parsePage.ts');
     const queue = new sqs.Queue(this, 'GpuQueue', {
       queueName: QueueName,
+      receiveMessageWaitTime: cdk.Duration.seconds(20),
       visibilityTimeout: cdk.Duration.seconds(300),
     });
 
