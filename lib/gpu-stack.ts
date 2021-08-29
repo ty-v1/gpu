@@ -19,7 +19,7 @@ export class GpuStack extends cdk.Stack {
     super(scope, id, props);
 
     const getGpuSellerPageFunction = this.createFunction('getGpuSellerPage', 'getGpuSellerPage.ts');
-    const parsePageFunction = this.createFunction('parsePage', 'parsePage.ts');
+    const parsePageFunction = this.createFunction('parsePage', 'parsePage.ts', cdk.Duration.seconds(300));
     const queue = new sqs.Queue(this, 'GpuQueue', {
       queueName: QueueName,
       receiveMessageWaitTime: cdk.Duration.seconds(20),
@@ -65,10 +65,11 @@ export class GpuStack extends cdk.Stack {
     bucket.grantRead(getGpuSellerPageFunction);
   }
 
-  private createFunction(name: string, fileName: string): NodejsFunction {
+  private createFunction(name: string, fileName: string, timeout: cdk.Duration = cdk.Duration.seconds(3)): NodejsFunction {
     return new NodejsFunction(this, name, {
       entry: path.resolve(PROJECT_DIR, fileName),
       retryAttempts: 1,
+      timeout,
       environment: {
         AWS_ACCOUNT_ID: cdk.Stack.of(this).account,
       }
