@@ -5,17 +5,22 @@ import { Random } from 'random-js';
 import { QueueName } from '@/resources';
 import { SellerPageParserFactory } from '@/parser/seller/SellerPageParserFactory';
 import { GpuPageParserFactory } from '@/parser/gpu/GpuPageParserFactory';
-import { fetchContent } from '@/util/fetchContent';
 import { GpuRepository } from '@/model/gpu/GpuRepository';
 
 export const handler: SQSHandler = async ({Records}) => {
   const job = JSON.parse(Records[0].body) as Job;
 
-  if (job.type === 'GetProductLink') {
-    await getProductLinks(job);
-  } else {
-    await storeGpuPrice(job);
+  try {
+    if (job.type === 'GetProductLink') {
+      await getProductLinks(job);
+    } else {
+      await storeGpuPrice(job);
+    }
+  } catch (e) {
+    // エラーはすべて握りつぶす
+    console.error(e);
   }
+
 };
 
 const getProductLinks = async (job: GetProductLinkJob) => {
