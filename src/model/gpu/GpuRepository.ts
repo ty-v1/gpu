@@ -31,9 +31,7 @@ export class GpuRepository {
     await this.client.send(
       new PutCommand({
         Item: {
-          Key: {
-            ...this.convertToInfraItem(gpuPrice),
-          },
+          ...this.convertToInfraItem(gpuPrice),
         },
         TableName: GpuPriceTableName,
       })

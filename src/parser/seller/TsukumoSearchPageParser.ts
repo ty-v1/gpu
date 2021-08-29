@@ -9,7 +9,7 @@ export class TsukumoSearchPageParser implements SellerPageParser {
   async* parse(url: string): AsyncGenerator<readonly string[]> {
     for await (const $ of this.fetchPages(url)) {
       yield $('.search-box__product-list')
-        .find('a.product-link')
+        .find('.search-box__product-name > a.product-link')
         .toArray()
         .map((e) => e.attribs['href']);
     }
