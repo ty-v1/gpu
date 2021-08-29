@@ -35,6 +35,10 @@ export const Maker = {
     name: 'Palit',
     code: '01FE6AKD51CA38K1NBPWADS7T1',
   },
+  ELSA: {
+    name: 'ELSA',
+    code: '01FE8V355806NCDV93YWFTD371',
+  },
 } as const;
 
 export type Maker = typeof Maker[keyof typeof Maker];
