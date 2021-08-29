@@ -28,15 +28,9 @@ export const handler: CloudWatchLogsHandler = async () => {
       url: row[1],
     };
 
-    const accountId = (await new STSClient({region: 'REGION'})
-      .send(new GetCallerIdentityCommand({})))
-      .Account;
-
     await sqsClient.send(new SendMessageCommand({
       MessageBody: JSON.stringify(job),
-      QueueUrl: `https://sqs.ap-northeast-1.amazonaws.com/${accountId}/${QueueName}`,
-      MessageGroupId: job.seller,
-      MessageDeduplicationId: job.url,
+      QueueUrl: `https://sqs.ap-northeast-1.amazonaws.com/${process.env.AWS_ACCOUNT_ID}/${QueueName}`,
       DelaySeconds: random.integer(1, 900),
     }));
   }

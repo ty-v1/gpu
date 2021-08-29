@@ -1020,7 +1020,7 @@
     fast-xml-parser "3.19.0"
     tslib "^2.3.0"
 
-"@aws-sdk/client-sts@3.28.0", "@aws-sdk/client-sts@^3.28.0":
+"@aws-sdk/client-sts@3.28.0":
   version "3.28.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/client-sts/-/client-sts-3.28.0.tgz#c1791df48039709413f872cef9e0b7702fe07a5c"
   integrity sha512-lT6Qr1dt3TpSHfUKe0MjgUBJkUbjXYyMqn+vuoGNV3K5ImRi6FUbmlKwFWQwk0t3fSdpX9xBML98aZOc6/YEgA==

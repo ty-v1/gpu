@@ -22,7 +22,6 @@ export class GpuStack extends cdk.Stack {
     const queue = new sqs.Queue(this, 'GpuQueue', {
       queueName: QueueName,
       visibilityTimeout: cdk.Duration.seconds(300),
-      fifo: true,
     });
 
     queue.grantSendMessages(getGpuSellerPageFunction);
@@ -66,6 +65,9 @@ export class GpuStack extends cdk.Stack {
     return new NodejsFunction(this, name, {
       entry: path.resolve(PROJECT_DIR, fileName),
       retryAttempts: 1,
+      environment: {
+        AWS_ACCOUNT_ID: cdk.Stack.of(this).account,
+      }
     });
 
   }

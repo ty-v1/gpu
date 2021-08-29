@@ -25,10 +25,6 @@ const getProductLinks = async (job: GetProductLinkJob) => {
   const productLinksGenerator = new SellerPageParserFactory().create(job.seller)
     .parse(job.url);
 
-  const accountId = (await new STSClient({region: 'REGION'})
-    .send(new GetCallerIdentityCommand({})))
-    .Account;
-
   for await (const productLinks of productLinksGenerator) {
     for (const productLink of productLinks) {
       const getGpuPriceJob: GetGpuPriceJob = {
@@ -39,9 +35,7 @@ const getProductLinks = async (job: GetProductLinkJob) => {
 
       await sqsClient.send(new SendMessageCommand({
         MessageBody: JSON.stringify(getGpuPriceJob),
-        QueueUrl: `https://sqs.ap-northeast-1.amazonaws.com/${accountId}/${QueueName}`,
-        MessageGroupId: getGpuPriceJob.seller,
-        MessageDeduplicationId: getGpuPriceJob.url,
+        QueueUrl: `https://sqs.ap-northeast-1.amazonaws.com/${process.env.AWS_ACCOUNT_ID}/${QueueName}`,
         DelaySeconds: random.integer(1, 900),
       }));
     }
