@@ -4,6 +4,8 @@ import { SendMessageCommand, SQSClient } from '@aws-sdk/client-sqs';
 import { Random } from 'random-js';
 import { QueueName, SellerMasterBucketName } from '@/resources';
 import { GetProductLinkJob } from '@/types/Job';
+import * as readline from 'readline';
+import { GpuSeller } from '@/types/GpuSeller';
 
 export const handler: CloudWatchLogsHandler = async () => {
   const s3Client = new S3Client({});
@@ -12,15 +14,16 @@ export const handler: CloudWatchLogsHandler = async () => {
     Bucket: SellerMasterBucketName,
     Key: 'sellers.csv',
   }))).Body
+  const readLineStream = readline.createInterface(stream);
 
   const sqsClient = new SQSClient({});
   const random = new Random();
-  for await (const chunk of stream) {
+  for await (const chunk of readLineStream) {
 
     const row = chunk.split(',');
     const job: GetProductLinkJob = {
       type: 'GetProductLink',
-      seller: row[0],
+      seller: row[0] as GpuSeller,
       url: row[1],
     };
 
