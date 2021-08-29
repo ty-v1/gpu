@@ -30,9 +30,9 @@ export class TsukumoPageParser implements GpuPageParser {
   }
 
   private getMaker($: CheerioAPI): Maker {
-    const makerName = $('.main-contents__product-title > h1 > span:last')
+    const makerName = $('.main-contents__product-title > h1 > span:first')
       .text()
-      .replace(/[\s,¥]/g, '')
+      .replace(/[\s]/g, '')
       .split('')
       .filter(filterAsciiAndKuroutoSikou)
       .join('');
