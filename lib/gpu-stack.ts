@@ -2,22 +2,23 @@ import * as sqs from '@aws-cdk/aws-sqs';
 import * as cdk from '@aws-cdk/core';
 import { NodejsFunction } from '@aws-cdk/aws-lambda-nodejs';
 import * as path from 'path';
-import { QueueName, GpuPriceTableName } from '../src/resources';
+import { QueueName, GpuPriceTableName, SellerMasterBucketName } from '../src/resources';
 import * as dynamodb from '@aws-cdk/aws-dynamodb';
 import * as events from '@aws-cdk/aws-events';
 import * as targets from '@aws-cdk/aws-events-targets';
+import * as s3 from '@aws-cdk/aws-s3';
 import { BillingMode } from '@aws-cdk/aws-dynamodb';
 import { Schedule } from '@aws-cdk/aws-events/lib/schedule';
 
-const PROJECT_DIR = path.join('..', 'src');
+const PROJECT_DIR = path.join(__dirname, '..', 'src', 'lambda');
 
 
 export class GpuStack extends cdk.Stack {
   constructor(scope: cdk.App, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    const getGpuSellerPageFunction = this.createFunction('getGpuSellerPage', 'getGpuSellerPage');
-    const parsePageFunction = this.createFunction('parsePage', 'parsePage');
+    const getGpuSellerPageFunction = this.createFunction('getGpuSellerPage', 'getGpuSellerPage.ts');
+    const parsePageFunction = this.createFunction('parsePage', 'parsePage.ts');
     const queue = new sqs.Queue(this, 'GpuQueue', {
       queueName: QueueName,
       visibilityTimeout: cdk.Duration.seconds(300),
@@ -53,6 +54,12 @@ export class GpuStack extends cdk.Stack {
     event.addTarget(new targets.LambdaFunction(getGpuSellerPageFunction, {
       retryAttempts: 1,
     }));
+
+    const bucket = new s3.Bucket(this, 'GpuSellerBucket', {
+      bucketName: SellerMasterBucketName,
+    });
+
+    bucket.grantRead(getGpuSellerPageFunction);
   }
 
   private createFunction(name: string, fileName: string): NodejsFunction {
