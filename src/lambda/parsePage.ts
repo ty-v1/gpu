@@ -7,7 +7,6 @@ import { SellerPageParserFactory } from '@/parser/seller/SellerPageParserFactory
 import { GpuPageParserFactory } from '@/parser/gpu/GpuPageParserFactory';
 import { fetchContent } from '@/util/fetchContent';
 import { GpuRepository } from '@/model/gpu/GpuRepository';
-import { GetCallerIdentityCommand, STSClient } from '@aws-sdk/client-sts';
 
 export const handler: SQSHandler = async ({Records}) => {
   const job = JSON.parse(Records[0].body) as Job;
@@ -32,6 +31,7 @@ const getProductLinks = async (job: GetProductLinkJob) => {
         url: productLink,
         type: 'GetGpuPrice',
       };
+      console.log(`GetGpuPriceJob: ${JSON.stringify(getGpuPriceJob, null, 2)}`);
 
       await sqsClient.send(new SendMessageCommand({
         MessageBody: JSON.stringify(getGpuPriceJob),
@@ -46,6 +46,7 @@ const storeGpuPrice = async (job: GetGpuPriceJob) => {
   const content = await fetchContent(job.url)
   const gpu = new GpuPageParserFactory().create(job.seller)
     .parse(content);
+  console.log(`Gpu: ${JSON.stringify(gpu, null, 2)}`);
 
   await new GpuRepository().store(gpu);
 };

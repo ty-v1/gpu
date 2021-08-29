@@ -9,6 +9,8 @@ import * as targets from '@aws-cdk/aws-events-targets';
 import * as s3 from '@aws-cdk/aws-s3';
 import { BillingMode } from '@aws-cdk/aws-dynamodb';
 import { Schedule } from '@aws-cdk/aws-events/lib/schedule';
+import { SqsEventSource } from '@aws-cdk/aws-lambda-event-sources';
+import { Duration } from '@aws-cdk/core';
 
 const PROJECT_DIR = path.join(__dirname, '..', 'src', 'lambda');
 
@@ -27,6 +29,8 @@ export class GpuStack extends cdk.Stack {
     queue.grantSendMessages(getGpuSellerPageFunction);
     queue.grantSendMessages(parsePageFunction);
     queue.grantConsumeMessages(parsePageFunction);
+
+    parsePageFunction.addEventSource(new SqsEventSource(queue));
 
     const table = new dynamodb.Table(this, 'GpuPriceTable', {
       partitionKey: {

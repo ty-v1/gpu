@@ -33,5 +33,7 @@ export const handler: CloudWatchLogsHandler = async () => {
       QueueUrl: `https://sqs.ap-northeast-1.amazonaws.com/${process.env.AWS_ACCOUNT_ID}/${QueueName}`,
       DelaySeconds: random.integer(1, 900),
     }));
+
+    console.log(`job: ${JSON.stringify(job, null, 2)}`);
   }
 };
