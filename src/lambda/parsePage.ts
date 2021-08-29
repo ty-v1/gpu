@@ -7,6 +7,7 @@ import { SellerPageParserFactory } from '@/parser/seller/SellerPageParserFactory
 import { GpuPageParserFactory } from '@/parser/gpu/GpuPageParserFactory';
 import { fetchContent } from '@/util/fetchContent';
 import { GpuRepository } from '@/model/gpu/GpuRepository';
+import { GetCallerIdentityCommand, STSClient } from '@aws-sdk/client-sts';
 
 export const handler: SQSHandler = async ({Records}) => {
   const job = JSON.parse(Records[0].body) as Job;
@@ -24,6 +25,10 @@ const getProductLinks = async (job: GetProductLinkJob) => {
   const productLinksGenerator = new SellerPageParserFactory().create(job.seller)
     .parse(job.url);
 
+  const accountId = (await new STSClient({region: 'REGION'})
+    .send(new GetCallerIdentityCommand({})))
+    .Account;
+
   for await (const productLinks of productLinksGenerator) {
     for (const productLink of productLinks) {
       const getGpuPriceJob: GetGpuPriceJob = {
@@ -34,7 +39,7 @@ const getProductLinks = async (job: GetProductLinkJob) => {
 
       await sqsClient.send(new SendMessageCommand({
         MessageBody: JSON.stringify(getGpuPriceJob),
-        QueueUrl: QueueName,
+        QueueUrl: `https://sqs.ap-northeast-1.amazonaws.com/${accountId}/${QueueName}`,
         MessageGroupId: getGpuPriceJob.seller,
         MessageDeduplicationId: getGpuPriceJob.url,
         DelaySeconds: random.integer(1, 900),

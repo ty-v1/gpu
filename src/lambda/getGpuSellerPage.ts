@@ -6,6 +6,7 @@ import { QueueName, SellerMasterBucketName } from '@/resources';
 import { GetProductLinkJob } from '@/types/Job';
 import * as readline from 'readline';
 import { GpuSeller } from '@/types/GpuSeller';
+import { GetCallerIdentityCommand, STSClient } from '@aws-sdk/client-sts';
 
 export const handler: CloudWatchLogsHandler = async () => {
   const s3Client = new S3Client({});
@@ -27,9 +28,13 @@ export const handler: CloudWatchLogsHandler = async () => {
       url: row[1],
     };
 
+    const accountId = (await new STSClient({region: 'REGION'})
+      .send(new GetCallerIdentityCommand({})))
+      .Account;
+
     await sqsClient.send(new SendMessageCommand({
       MessageBody: JSON.stringify(job),
-      QueueUrl: QueueName,
+      QueueUrl: `https://sqs.ap-northeast-1.amazonaws.com/${accountId}/${QueueName}`,
       MessageGroupId: job.seller,
       MessageDeduplicationId: job.url,
       DelaySeconds: random.integer(1, 900),
