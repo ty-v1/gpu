@@ -8,6 +8,7 @@ import cheerio from 'cheerio';
 import { DataNode } from 'domhandler';
 import { LocalDateTime } from 'js-joda';
 import { fetchContent } from '@/util/fetchContent';
+import { GpuSeller } from '@/types/GpuSeller';
 
 export class DosparaPageParser implements GpuPageParser {
 
@@ -22,6 +23,7 @@ export class DosparaPageParser implements GpuPageParser {
       name: this.getName($),
       createDateTime: LocalDateTime.now(),
       url,
+      seller: GpuSeller.Dospara
     }
   }
 

@@ -7,6 +7,7 @@ import { Chipset, Chipsets } from '@/types/Chipset';
 import { filterAsciiAndKuroutoSikou } from '@/util/filter';
 import { LocalDateTime } from 'js-joda';
 import { fetchContent } from '@/util/fetchContent';
+import { GpuSeller } from '@/types/GpuSeller';
 
 export class TsukumoPageParser implements GpuPageParser {
   async parse(url: string): Promise<Gpu> {
@@ -20,6 +21,7 @@ export class TsukumoPageParser implements GpuPageParser {
       name: this.getName($),
       createDateTime: LocalDateTime.now(),
       url,
+      seller: GpuSeller.Tsukumo,
     }
   }
 

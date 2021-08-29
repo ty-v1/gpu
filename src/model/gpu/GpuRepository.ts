@@ -17,7 +17,8 @@ type GpuInfraItem = {
   readonly makerCode: string;
   readonly chipset: string;
   readonly createAt: string;
-  readonly url: string
+  readonly url: string;
+  readonly seller: string;
 }
 
 export class GpuRepository {
@@ -48,14 +49,14 @@ export class GpuRepository {
 
     return {
       primaryKey: `${gpu.chipset}_${yearMonth}`,
-      sortKey: `${gpu.maker.code}_${day}`,
+      sortKey: `${gpu.maker.code}_${gpu.seller}_${day}`,
       chipset: gpu.chipset,
       name: gpu.name,
       makerCode: gpu.maker.code,
       price: gpu.price,
       createAt: gpu.createDateTime.format(DateTimeFormatter.ofPattern('yyyy-MM-dd')),
-      url: gpu.url
+      url: gpu.url,
+      seller: gpu.seller,
     }
-
   }
 }
