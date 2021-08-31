@@ -10,7 +10,7 @@ export class DosparaSearchPageParser implements SellerPageParser {
     for await (const $ of this.fetchPages(url)) {
       yield $('.itemSearchTable tbody > tr> td.ttl > a')
         .toArray()
-        .map((e) => `https://www.dospara.co.jp${e.attribs['href']}`);
+        .map((e) => `https://www.dospara.co.jp${e.attribs['href']}&lf=0`);
     }
   }
 
