@@ -3,6 +3,7 @@ import { DateTimeFormatter } from 'js-joda';
 import { PutCommand } from '@aws-sdk/lib-dynamodb';
 import { GpuPriceTableName } from '@/resources';
 import { Gpu } from '@/model/gpu/Gpu';
+import * as crypto from 'crypto';
 
 
 /**
@@ -26,7 +27,7 @@ export class GpuRepository {
   private readonly client: DynamoDBClient;
 
   constructor() {
-    this.client = new DynamoDBClient({})
+    this.client = new DynamoDBClient({});
   }
 
   async store(gpuPrice: Gpu): Promise<void> {
@@ -42,14 +43,15 @@ export class GpuRepository {
   }
 
   private convertToInfraItem(gpu: Gpu): GpuInfraItem {
-    const yearMonth = gpu.createDateTime.format(DateTimeFormatter.ofPattern('yyyy-MM'))
+    const yearMonth = gpu.createDateTime.format(DateTimeFormatter.ofPattern('yyyy-MM'));
     const day = gpu.createDateTime.dayOfMonth()
       .toString(10)
       .padStart(2, '0');
+    const hash = crypto.createHash('md5').update(gpu.name).digest('hex');
 
     return {
       primaryKey: `${gpu.chipset}_${yearMonth}`,
-      sortKey: `${gpu.maker.code}_${gpu.seller}_${day}`,
+      sortKey: `${gpu.maker.code}_${gpu.seller}_${day}_${hash}`,
       chipset: gpu.chipset,
       name: gpu.name,
       makerCode: gpu.maker.code,
@@ -57,6 +59,6 @@ export class GpuRepository {
       createAt: gpu.createDateTime.format(DateTimeFormatter.ofPattern('yyyy-MM-dd')),
       url: gpu.url,
       seller: gpu.seller,
-    }
+    };
   }
 }
