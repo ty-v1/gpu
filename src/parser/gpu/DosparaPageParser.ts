@@ -1,14 +1,14 @@
-import { GpuPageParser } from '@/parser/gpu/GpuPageParser';
-import { Gpu } from '@/model/gpu/Gpu';
-import { CheerioAPI } from 'cheerio/lib/load';
-import { Maker } from '@/types/Maker';
-import { filterAsciiAndKuroutoSikou } from '@/util/filter';
-import { Chipset, Chipsets } from '@/types/Chipset';
+import {GpuPageParser} from '@/parser/gpu/GpuPageParser';
+import {Gpu} from '@/model/gpu/Gpu';
+import {CheerioAPI} from 'cheerio/lib/load';
+import {Maker} from '@/types/Maker';
+import {filterAsciiAndKuroutoSikou} from '@/util/filter';
+import {Chipset, Chipsets} from '@/types/Chipset';
 import cheerio from 'cheerio';
-import { DataNode } from 'domhandler';
-import { LocalDateTime } from 'js-joda';
-import { fetchContent } from '@/util/fetchContent';
-import { GpuSeller } from '@/types/GpuSeller';
+import {DataNode} from 'domhandler';
+import {LocalDateTime} from 'js-joda';
+import {fetchContent} from '@/util/fetchContent';
+import {GpuSeller} from '@/types/GpuSeller';
 
 export class DosparaPageParser implements GpuPageParser {
 
@@ -24,11 +24,11 @@ export class DosparaPageParser implements GpuPageParser {
       createDateTime: LocalDateTime.now(),
       url,
       seller: GpuSeller.Dospara
-    }
+    };
   }
 
   private getPrice($: CheerioAPI): number {
-    const priceText = $('p.priceTxt > em > span.price')
+    const priceText = $('p.priceTxt > em > span:first')
       .text()
       .replace(/[^\d]/g, '');
 
@@ -45,24 +45,23 @@ export class DosparaPageParser implements GpuPageParser {
 
     const maker = Object.entries(Maker)
       .map(([_, e]) => e)
-      .find((e) => e.name === makerName)
+      .find((e) => e.name === makerName);
 
     if (maker === undefined) {
       throw new Error(`${makerName} is not gpu maker`);
     }
 
-    return maker
+    return maker;
   }
 
   private getName($: CheerioAPI): string {
-    return $('#detailMain > p.productName').contents()
-      .filter((_, e): e is DataNode => e instanceof DataNode)
-      .toArray()
-      .filter(({type}) => type === 'text')
-      .map(e => e.data)
-      .filter((e) => !/^\s+$/.test(e))
-      .pop()
-      ?.replace(/^\s+(.*)\s+$/, '$1') ?? 'Cannot find';
+    return $('#detailMain > p.productName')
+      .clone()
+      .children()
+      .remove()
+      .end()
+      .text()
+      .replace(/\s/g, '') ?? 'Cannot find';
   }
 
   private getChipset($: CheerioAPI): Chipset {
