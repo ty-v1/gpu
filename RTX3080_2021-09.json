@@ -1,3192 +1,1452 @@
 [
   {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "159500"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "149980"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "142890"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "142890"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "142890"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "142890"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "149980"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "142890"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "142890"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "149980"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "142890"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "142890"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "149980"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "149980"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "149980"
-    },
-    "name": {
-      "S": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "140000"
-    },
-    "name": {
-      "S": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "160600"
-    },
-    "name": {
-      "S": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "160600"
-    },
-    "name": {
-      "S": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "160600"
-    },
-    "name": {
-      "S": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "160600"
-    },
-    "name": {
-      "S": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "160600"
-    },
-    "name": {
-      "S": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "160600"
-    },
-    "name": {
-      "S": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "150667"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "160399"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "150667"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "150667"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "150667"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "150667"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "150667"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "150667"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "150667"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "149800"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "144980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "144980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "144980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "144980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "144980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "144980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "165000"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 SEA HAWK X 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "159980"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "163799"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "TUF-RTX3080-O10G-V2-GAMING(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "TUF-RTX3080-O10G-V2-GAMING(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "188799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "179980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "179980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "179980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "188799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "188799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "179980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "179980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "163130"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "188799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "159800"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "169980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "188799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "149980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "169980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "179980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "149980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "169980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "179980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "159800"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "169980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "188799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "159800"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "169980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "188799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "159800"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "169980"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "188799"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "159800"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "175799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "169800"
-    },
-    "name": {
-      "S": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "166799"
-    },
-    "name": {
-      "S": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "139700"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "145970"
-    },
-    "name": {
-      "S": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "139800"
-    },
-    "name": {
-      "S": "GG-RTX3080-E10GB/TP/LHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "139800"
-    },
-    "name": {
-      "S": "GG-RTX3080-E10GB/TP/LHR(GeForceRTX308010GB)LHR版"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "143300"
-    },
-    "name": {
-      "S": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-01"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-02"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-03"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-04"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-05"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-06"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-07"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-08"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-09"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-10"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-11"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-12"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-13"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-14"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "147700"
-    },
-    "name": {
-      "S": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "144100"
-    },
-    "name": {
-      "S": "GV-N3080VISION OC-10GD R2.0"
-    }
-  },
-  {
-    "createAt": {
-      "S": "2021-09-15"
-    },
-    "price": {
-      "N": "167700"
-    },
-    "name": {
-      "S": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
-    }
+    "createAt": "2021-09-01",
+    "price": 159500,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 149980,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 142890,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 142890,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 142890,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 142890,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 149980,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 142890,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 142890,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 149980,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 142890,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 142890,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 149980,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 149980,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 149980,
+    "name": "INNO3D GEFORCE RTX 3080 ICHILL X4 LHR　C30804-106XX-1810VA36H"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 140000,
+    "name": "NED3080019IA-132AA(GeForceRTX3080GamingPro10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 160600,
+    "name": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 160600,
+    "name": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 160600,
+    "name": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 160600,
+    "name": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 160600,
+    "name": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 160600,
+    "name": "GeForceRTX3080GAMINGZTRIO10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 165000,
+    "name": "GeForceRTX3080SEAHAWKX10GLHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 150667,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 160399,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 150667,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 150667,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 150667,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 150667,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 150667,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 150667,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 150667,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 149800,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 144980,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 144980,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 144980,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 144980,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 144980,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 144980,
+    "name": "GeForce RTX 3080 VENTUS 3X 10G OC LHR"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 165000,
+    "name": "MSI RTX3080搭載 10GB グラフィックボード GeForce RTX 3080 VENTUS 3X 10G OC"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 165000,
+    "name": "GeForce RTX 3080 SEA HAWK X 10G LHR"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 159980,
+    "name": "GeForce RTX 3080 GAMING Z TRIO 10G LHR"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 163799,
+    "name": "GeForce RTX 3080 Phoenix　NED3080019IA-132AX-G"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 163130,
+    "name": "TUF-RTX3080-O10G-V2-GAMING(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 163130,
+    "name": "TUF-RTX3080-O10G-V2-GAMING(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 188799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 163130,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 175799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 179980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 163130,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 175799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 179980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 163130,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 175799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 179980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 163130,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 175799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 188799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 163130,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 175799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 188799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 163130,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 175799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 179980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 163130,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 175799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 179980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 163130,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 175799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 188799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 159800,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 169980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 188799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 149980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 169980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 179980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 149980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 169980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 179980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 159800,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 169980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 188799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 159800,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 169980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 188799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 159800,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 169980,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 188799,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-WHITE LHR仕様"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 159800,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  TUF Gaming GeForce RTX 3080 V2 OC edition LHR"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 175799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード ROG-STRIX-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 169800,
+    "name": "Geforce RTX3080搭載 10GB グラフィックボード  ROG-STRIX-RTX3080-O10G-V2-GAMING LHR仕様"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 166799,
+    "name": "ASUS RTX3080搭載 10GB グラフィックボード TUF-RTX3080-O10G-GAMING"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 139700,
+    "name": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 139700,
+    "name": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 139700,
+    "name": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 139700,
+    "name": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 139700,
+    "name": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 139700,
+    "name": "ZT-A30800D-10PLHR(ZOTACGAMINGGeForceRTX3080TrinityLHR10GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 139700,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 139700,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 139700,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 139700,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 139700,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 139700,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity LHR　ZTRTX3080TRINITY-10GB/ZT-A30800D-10PLHR"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 145970,
+    "name": "ZOTAC GAMING GeForce RTX 3080 Trinity OC LHR / ZTRTX3080TRINITYOC-10GBGDR6/ZT-A30800J-10PLHR"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 139800,
+    "name": "GG-RTX3080-E10GB/TP/LHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 139800,
+    "name": "GG-RTX3080-E10GB/TP/LHR(GeForceRTX308010GB)LHR版"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 143300,
+    "name": "NVIDIA GEFORCE RTX 3080 搭載 10GB グラフィックボード　GG-RTX3080-E10GB/TP　GALAKURO GAMING"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-01",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-02",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-03",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-04",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-05",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-06",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-07",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-08",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-09",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-10",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-11",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-12",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-13",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-14",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 147700,
+    "name": "GeForce RTX 3080 GAMING OC 10G (rev. 1.0) GV-N3080GAMING OC-10GD"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 144100,
+    "name": "GV-N3080VISION OC-10GD R2.0"
+  },
+  {
+    "createAt": "2021-09-15",
+    "price": 167700,
+    "name": "AORUS GeForce RTX 3080 XTREME 10G GV-N3080AORUS X-10GD"
   }
 ]
