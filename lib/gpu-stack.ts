@@ -10,6 +10,7 @@ import * as targets from '@aws-cdk/aws-events-targets';
 import * as s3 from '@aws-cdk/aws-s3';
 import { Schedule } from '@aws-cdk/aws-events/lib/schedule';
 import { SqsEventSource } from '@aws-cdk/aws-lambda-event-sources';
+import { LambdaIntegration, RestApi } from '@aws-cdk/aws-apigateway';
 
 const PROJECT_DIR = path.join(__dirname, '..', 'src', 'lambda');
 
@@ -63,6 +64,20 @@ export class GpuStack extends cdk.Stack {
     });
 
     bucket.grantRead(getGpuSellerPageFunction);
+
+    const restApi = new RestApi(this, 'GpuApi', {
+      restApiName: 'gpu-api',
+      deployOptions: {
+        stageName: 'v1',
+      },
+    });
+
+    const getGpuPriceFunction = this.createFunction('getGpuPrice', path.join('api', 'getGpuPrice.ts'));
+    table.grantReadData(getGpuPriceFunction);
+    restApi.root.addResource('gpu')
+      .addResource('{chipset}')
+      .addResource('{yearMonth}')
+      .addMethod('GET', new LambdaIntegration(getGpuPriceFunction));
   }
 
   private createFunction(name: string, fileName: string, timeout: cdk.Duration = cdk.Duration.seconds(3)): NodejsFunction {
