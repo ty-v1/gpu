@@ -1,12 +1,12 @@
-import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
-import { DateTimeFormatter, LocalDate, LocalDateTime, LocalTime } from 'js-joda';
-import { PutCommand, QueryCommand } from '@aws-sdk/lib-dynamodb';
-import { GpuPriceTableName } from '@/resources';
-import { Gpu } from '@/model/gpu/Gpu';
+import {DynamoDBClient} from '@aws-sdk/client-dynamodb';
+import {DateTimeFormatter, LocalDate, LocalTime} from 'js-joda';
+import {PutCommand, QueryCommand} from '@aws-sdk/lib-dynamodb';
+import {GpuPriceTableName} from '@/resources';
+import {Gpu} from '@/model/gpu/Gpu';
 import * as crypto from 'crypto';
-import { Chipset, Chipsets } from '@/types/Chipset';
-import { Maker } from '@/types/Maker';
-import { GpuSeller } from '@/types/GpuSeller';
+import {Chipset, Chipsets} from '@/types/Chipset';
+import {Maker} from '@/types/Maker';
+import {GpuSeller} from '@/types/GpuSeller';
 
 
 /**
@@ -51,15 +51,23 @@ export class GpuRepository {
     const monthString = month.toString(10)
       .padStart(2, '0');
 
-    const { Items } = await this.client.send(new QueryCommand({
-      KeyConditionExpression: 'primaryKey = :pk',
-      ExpressionAttributeValues: {
-        ':pk': `${chipset}_${yearString}-${monthString}`
-      },
-      TableName: GpuPriceTableName,
-    }));
 
-    return Items?.map((e) => this.convertToGpu(e as GpuInfraItem)) ?? [];
+    const infraItems = [];
+    let cursor = undefined;
+    do {
+      const {Items, LastEvaluatedKey} = await this.client.send(new QueryCommand({
+        KeyConditionExpression: 'primaryKey = :pk',
+        ExpressionAttributeValues: {
+          ':pk': `${chipset}_${yearString}-${monthString}`
+        },
+        TableName: GpuPriceTableName,
+      }));
+
+      infraItems.push(...Items ?? []);
+      cursor = LastEvaluatedKey;
+    } while (cursor !== undefined);
+
+    return infraItems?.map((e) => this.convertToGpu(e as GpuInfraItem)) ?? [];
   }
 
   private convertToInfraItem(gpu: Gpu): GpuInfraItem {
