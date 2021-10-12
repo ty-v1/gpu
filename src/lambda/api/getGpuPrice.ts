@@ -1,22 +1,7 @@
-import {
-  APIGatewayProxyCallback, APIGatewayProxyEventPathParameters,
-  APIGatewayProxyHandler,
-  APIGatewayProxyHandlerV2,
-  CloudWatchLogsHandler
-} from 'aws-lambda';
-import { GetObjectCommand, S3Client, } from '@aws-sdk/client-s3';
-import { SendMessageCommand, SQSClient } from '@aws-sdk/client-sqs';
-import { Random } from 'random-js';
-import { QueueName, SellerMasterBucketName } from '@/resources';
-import { GetProductLinkJob } from '@/types/Job';
-import * as readline from 'readline';
-import { GpuSeller } from '@/types/GpuSeller';
-import { GetCallerIdentityCommand, STSClient } from '@aws-sdk/client-sts';
-import { GpuRepository } from '@/model/gpu/GpuRepository';
-import { APIGatewayProxyEventQueryStringParameters } from 'aws-lambda/trigger/api-gateway-proxy';
-import { Chipsets } from '@/types/Chipset';
-import { HttpError } from '@/error/HttpError';
-import { findGpu } from '@/lambda/api/findGpu';
+import {APIGatewayProxyEventPathParameters, APIGatewayProxyHandler} from 'aws-lambda';
+import {Chipsets} from '@/types/Chipset';
+import {HttpError} from '@/error/HttpError';
+import {findGpu} from '@/lambda/api/findGpu';
 
 export const handler: APIGatewayProxyHandler = async (event) => {
 
