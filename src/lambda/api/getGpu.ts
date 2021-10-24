@@ -1,7 +1,6 @@
 import { APIGatewayProxyEventPathParameters, APIGatewayProxyHandler } from 'aws-lambda';
 import { Chipsets } from '@/types/Chipset';
 import { HttpError } from '@/error/HttpError';
-import { findGpu } from '@/lambda/api/findGpu';
 
 export const handler: APIGatewayProxyHandler = async (event) => {
 
@@ -10,14 +9,13 @@ export const handler: APIGatewayProxyHandler = async (event) => {
       throw new HttpError(404, 'not found');
     }
 
-    const chipset = getChipSet(event.pathParameters);
-    const [year, month] = getYearMonth(event.pathParameters);
-
-    const dto = await findGpu(chipset, year, month);
+    const [id, chipset] = getChipSet(event.pathParameters);
 
     return {
       statusCode: 200,
-      body: JSON.stringify(dto),
+      body: JSON.stringify({
+        id, chipset,
+      }),
       headers: {
         'Access-Control-Allow-Origin': '*'
       },
@@ -51,24 +49,8 @@ const getChipSet = (pathParameters: APIGatewayProxyEventPathParameters) => {
   const chipset = Chipsets[id];
 
   if (chipset === undefined) {
-    throw new HttpError(404, `unknown chipset ${id}`);
+    throw new HttpError(404, `unknown chipset id ${id}`);
   }
 
-  return chipset;
-};
-
-const getYearMonth: (pathParameters: APIGatewayProxyEventPathParameters) => [number, number] = (pathParameters) => {
-  const yearMonth = pathParameters?.['yearMonth'];
-  if (yearMonth === undefined || !/^\d{6}$/.test(yearMonth)) {
-    throw new HttpError(400, 'invalid yearMonth format. It must be in YYYYMM format.');
-  }
-
-  const year = Number.parseInt(yearMonth.slice(0, 4), 10);
-  const month = Number.parseInt(yearMonth.slice(-2), 10);
-
-  if (month < 1 || 12 < month) {
-    throw new HttpError(400, `invalid month ${month}`);
-  }
-
-  return [year, month];
+  return [id, chipset];
 };

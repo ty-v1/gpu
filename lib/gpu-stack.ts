@@ -73,9 +73,17 @@ export class GpuStack extends cdk.Stack {
     });
 
     const getGpuPriceFunction = this.createFunction('getGpuPrice', path.join('api', 'getGpuPrice.ts'));
+    const listGpuFunction = this.createFunction('listGpu', path.join('api', 'listGpu.ts'));
+    const getGpuFunction = this.createFunction('getGpu', path.join('api', 'getGpu.ts'));
     table.grantReadData(getGpuPriceFunction);
-    restApi.root.addResource('gpu')
-      .addResource('{chipset}')
+
+    const allGpuResource = restApi.root.addResource('gpu');
+    allGpuResource.addMethod('GET', new LambdaIntegration(listGpuFunction));
+    allGpuResource.addResource('{id}')
+      .addMethod('GET', new LambdaIntegration(getGpuFunction));
+
+    restApi.root.addResource('price')
+      .addResource('{id}')
       .addResource('{yearMonth}')
       .addMethod('GET', new LambdaIntegration(getGpuPriceFunction));
   }
