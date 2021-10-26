@@ -1,5 +1,6 @@
 import * as sqs from '@aws-cdk/aws-sqs';
 import * as cdk from '@aws-cdk/core';
+import { Duration } from '@aws-cdk/core';
 import { NodejsFunction } from '@aws-cdk/aws-lambda-nodejs';
 import * as path from 'path';
 import { GpuPriceTableName, QueueName, SellerMasterBucketName } from '../src/resources';
@@ -11,6 +12,7 @@ import * as s3 from '@aws-cdk/aws-s3';
 import { Schedule } from '@aws-cdk/aws-events/lib/schedule';
 import { SqsEventSource } from '@aws-cdk/aws-lambda-event-sources';
 import { LambdaIntegration, RestApi } from '@aws-cdk/aws-apigateway';
+import { FieldLogLevel, GraphqlApi, Schema } from '@aws-cdk/aws-appsync';
 
 const PROJECT_DIR = path.join(__dirname, '..', 'src', 'lambda');
 
@@ -86,6 +88,8 @@ export class GpuStack extends cdk.Stack {
       .addResource('{id}')
       .addResource('{yearMonth}')
       .addMethod('GET', new LambdaIntegration(getGpuPriceFunction));
+
+    this.createAppSync(table);
   }
 
   private createFunction(name: string, fileName: string, timeout: cdk.Duration = cdk.Duration.seconds(3)): NodejsFunction {
@@ -97,6 +101,41 @@ export class GpuStack extends cdk.Stack {
         AWS_ACCOUNT_ID: cdk.Stack.of(this).account,
       }
     });
+  }
 
+  private createAppSync(table: dynamodb.Table) {
+    const api = new GraphqlApi(this, 'GpuGraphql', {
+      name: 'GpuGraphql',
+      schema: Schema.fromAsset(path.join(__dirname, '..', 'schema.graphql')),
+      logConfig: {
+        fieldLogLevel: FieldLogLevel.ALL,
+        excludeVerboseContent: true,
+      },
+      xrayEnabled: true,
+    });
+
+    const allGpuResolver = this.createFunction(
+      'allGpuResolver',
+      path.join('resolver', 'allGpuResolver.ts'),
+      Duration.seconds(30)
+    );
+    table.grantReadData(allGpuResolver);
+    api.addLambdaDataSource('AllGpuDatasource', allGpuResolver)
+      .createResolver({
+        typeName: 'Query',
+        fieldName: 'allGPU',
+      });
+
+    const gpuResolver = this.createFunction(
+      'gpuResolver',
+      path.join('resolver', 'gpuResolver.ts'),
+      Duration.seconds(10)
+    );
+    table.grantReadData(gpuResolver);
+    api.addLambdaDataSource('GpuDatasource', gpuResolver)
+      .createResolver({
+        typeName: 'Query',
+        fieldName: 'getGPU',
+      });
   }
 }

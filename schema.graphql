@@ -1,0 +1,25 @@
+schema {
+    query: Query
+}
+
+type Query {
+    getGPU(id: Int! year: Int month: Int): GPU
+    allGPU(year: Int month: Int): [GPU!]!
+}
+
+type GPU {
+    id: Int!
+    chipset: String!
+    products: [Product!]!
+}
+
+type Product {
+    name: String!
+    url: String!
+    price: [Price]!
+}
+
+type Price {
+    date: String!
+    price: Int!
+}
